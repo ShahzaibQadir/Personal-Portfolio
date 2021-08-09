@@ -32,4 +32,40 @@
   .work-card {
     width: 100%;
   }
+  .work-info {
+    margin-left: 0px;
+    margin-top: 12px;
+  }
+  .work-logo {
+    height: 70%;
+  }
+  .work-card {
+    flex-direction: column;
+  }
+}
+
+
+.project-links a {
+  text-decoration: none;
+  color: black;
+}
+.project-links {
+  margin-top: 6px;
+  display: flex;
+}
+.link-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  background-color: aquamarine;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-right: 6px;
+}
+.link-button i {
+  display: flex;
+  align-items: center;
+  margin-right: 4px;
 }

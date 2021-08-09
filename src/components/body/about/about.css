@@ -8,13 +8,13 @@
   align-items: center;
 }
 .picture {
-  height: 420px;
+  height: 300px;
 }
 .about-info {
   font-size: 24px;
 }
 .info-name {
-  font-size: 32px;
+  font-size: 25px;
   color: blue;
 }
 @media only screen and (max-width: 720px) {
@@ -23,9 +23,7 @@
     justify-content: center;
     align-items: center;
   }
-  .picture {
-    height: 280px;
-  }
+
   .about-info {
     font-size: 20px;
   }

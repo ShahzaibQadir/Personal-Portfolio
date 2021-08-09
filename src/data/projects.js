@@ -1,34 +1,63 @@
+import vp from '../assets/image/videoapp.png';
 export const ProjectData = [
   {
     id: 1,
-    title: "Random Project 2",
+    title: "Ecommerce Store",
     about:
-      "This is a random project I am using to illustrate in my video. This is channel overreacted and I hope you are enjoying this video. Make sure you like and comment if you have any doubt.",
-    tags: ["ReactJs", "NodeJs", "Firebase", "Healthcare"],
-    demo: "www.example.com",
-    github: "www.example.com",
-    image:
-      "https://i.pinimg.com/originals/8e/6d/fe/8e6dfec5dd47bedf06ca7f74c77e4b14.png",
+      "This is Ecommerce Project of Tech Products.In This project we have use commerceJs Api to make a store and add products.In frontend we used MaterialUI and Hooks-form and it also include payment gatway in which we used Strip Api.The Project is Hosted on Netlify",
+    tags: ["ReactJs", "Material-UI", "CommerceJS Api", "Stripe Api","React-Hooks-Form"],
+    demo: "https://shahzaibcommerjs-store.netlify.app/",
+    github: "https://github.com/ShahzaibQadir/EcommerReactWebsite",
+    image:  './images/eco.jpg',
   },
 
   {
     id: 1,
-    title: "Random Project 1",
+    title: "LiveStreaming App",
     about:
-      "This is a random project I am using to illustrate in my video. This is channel overreacted and I hope you are enjoying this video. Make sure you like and comment if you have any doubt.",
+      "App that allows you to video chat with other people.The Backend includes socket.io,expressJs,WebRTc Api.The Frontend is implemented using ReactJs Hooks,Material Ui.The Backend is deployed on Heroku and Frontend on Netlify",
     tags: [
       "ReactJs",
+      "Material-UI",
       "NodeJs",
-      "Firebase",
-      "Healthcare",
-      "ReactJs",
-      "NodeJs",
-      "Firebase",
-      "Healthcare",
+      "ExpressJs",
+      "Socket.io",
+      "WebRTc API",
+      
     ],
-    demo: "www.example.com",
-    github: "www.example.com",
-    image:
-      "https://cdn.dribbble.com/users/2657627/screenshots/13959270/media/b1a8b2b53760dc5c10e6cddc1409a3a1.png?compress=1&resize=400x300",
+    demo: "https://drfitness-live-video-session.netlify.app/",
+    github: "https://github.com/ShahzaibQadir/LiveVideoChatApp",
+    image: '../images/vv.jpg'
+      
+  },
+  {
+    id: 1,
+    title: "Dictionary Keyword Search App",
+    about:
+      "This is Dictionary Keyword Search App.In This project we can Typed words in different languages and it will search and give audio and written solutions.In Frontend we used Material-UI and React Hooks.And Using Axios Pakage we fetched Dictionary Api.This App is Hosted On Netlify",
+    tags: ["ReactJs", "Material-UI", "Dark-Theme", "React-Hooks","Dictionary Api"],
+    demo: "https://shahzaibqadirdictionary-app.netlify.app/",
+    github: "https://github.com/ShahzaibQadir/DictionaryApp",
+    image:  './images/dic.jpg',
+  },
+  {
+    id: 1,
+    title: "Travel Website",
+    about:
+      "This is Frontend Static Website.In this website i have styled using css I have used Utility Classes.This website is hosted on firebase Hosting",
+    tags: ["HTML", "CSS"],
+    demo: "https://travel-website-12f37.web.app/index.html#explore-places",
+    github: "https://github.com/ShahzaibQadir/FrontendPractice/tree/master/TravelWebsiteCSS_HTML-RESPONSIVE",
+    image:  './images/tr.jpg',
+  },
+  {
+    id: 1,
+    title: "Todo App(RealTime Chat App)",
+    about:
+      "This is a Todo Chat App where multiple people chat with each other Realtime.The Frontend is built with ReactJs Material-Ui React-Hooks.The Backend is Built on Firebase and Firestore Database.This website is hosted on firebase Hosting",
+    tags: ["ReactJs", "Material-UI","Firestore Database","Firebase","React","React-Hooks"],
+    demo: "https://todo-app-cp-6257f.web.app/",
+    github: "https://github.com/ShahzaibQadir/TodoChatAppUsingFirebase",
+    image:  './images/tdo.jpg',
   },
 ];

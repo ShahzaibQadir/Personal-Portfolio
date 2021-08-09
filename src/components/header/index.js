@@ -13,7 +13,7 @@ function Header() {
   return (
     <div className="header">
       <div onClick={handleLogoClick} className="logo">
-        Overreacted
+        Shahzaib Qadir
       </div>
       <div className="menu">
         <div className="web-menu">
